@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: ProximaNova;
+  src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.hero {
+  width: 1280px;
+  height: 500px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+}
+.hero nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  border-bottom: #fff solid 2px;
+  display: flex;
+  justify-content: space-between;
+}
+.hero nav .logo {
+  height: 42px;
+  width: 92px;
+  background-image: url(../images/logo/logo-white.png);
+}
+.hero nav .links {
+  height: 42px;
+  width: 542px;
+  align-self: center;
+  display: flex;
+  font-family: GillSans;
+}
+.hero nav .links a {
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+  border-right: #79addc solid 1.5px;
+  padding-right: 20px;
+}
+.hero nav .links .contact-link {
+  border-right: none;
+  margin-right: -20px;
+}
+.hero p {
+  color: #fff;
+  margin: 0 auto;
+}
+.hero .title-font {
+  width: 180px;
+  font-family: ProximaNova;
+  font-size: 60px;
+  padding-top: 60px;
+}
+.hero .hero-paragraph {
+  width: 714px;
+  font-family: GillSans;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 35px;
+  font-style: italic;
+}
+.hero .read-more {
+  width: 122px;
+  height: 40px;
+  font-family: GillSans;
+  font-size: 15px;
+  margin-top: 55px;
+  background-color: #79addc;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.promo-tours {
+  height: 304px;
+  width: 1280px;
+  margin: -50px auto 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+.promo-tours .promo {
+  height: 304px;
+  width: 236px;
+}
+.promo-tours .promo .israel-promo {
+  height: 304px;
+  width: 236px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.promo-tours .promo .usa-promo {
+  height: 304px;
+  width: 236px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.promo-tours .promo .australia-promo {
+  height: 304px;
+  width: 236px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.promo-tours .promo .promo-title {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  font-family: ProximaNova;
+  padding-top: 50px;
+}
+.promo-tours .promo .promo-price {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  font-family: ProximaNova;
+  margin-top: -20px;
+}
+.promo-tours .promo .learn-more-button {
+  font-family: GillSans;
+  color: #fff;
+  width: 133px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 52px;
+  font-size: 15px;
+  background-color: #79addc;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+footer {
+  width: 1280px;
+  height: 100px;
+  background-color: #79addc;
+  margin: 0 auto;
+}
+footer .footer-flex {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .footer-flex .logo {
+  height: 42px;
+  width: 92px;
+  margin-top: 15px;
+  background-image: url(../images/logo/logo-white.png);
+}
+footer .footer-flex .footer-copyright {
+  color: #fff;
+  font-family: GillSans;
+  font-size: 12px;
+  margin-top: 30px;
+}
+footer .footer-flex .footer-social-media {
+  display: flex;
+  width: 110px;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+footer .footer-flex .footer-social-media .facebook-logo {
+  height: 23px;
+  width: 23px;
+  background-image: url(../images/facebook.png);
+}
+footer .footer-flex .footer-social-media .instagram-logo {
+  height: 23px;
+  width: 23px;
+  background-image: url(../images/instagram.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+footer .footer-flex .footer-social-media .twitter-logo {
+  height: 23px;
+  width: 23px;
+  background-image: url(../images/twitter.png);
+}
+
+.booking-form {
+  width: 834px;
+  height: 900px;
+  margin: 0 auto;
+}
+.booking-form .booking-form-title {
+  font-family: ProximaNova;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.booking-form .form-flex {
+  display: flex;
+  margin-bottom: 20px;
+}
+.booking-form .form-flex .small-text-entry-box {
+  width: 344px;
+  height: 58px;
+  border: 1px solid #79addc;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: GillSans;
+  outline: none;
+}
+.booking-form .form-flex .medium-text-entry-box {
+  width: 470px;
+  height: 58px;
+  margin-left: 20px;
+  border: 1px solid #79addc;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: GillSans;
+  outline: none;
+}
+.booking-form .form-flex .form-text-1 {
+  font-size: 18px;
+  font-family: GillSans;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-right: 40px;
+}
+.booking-form .form-flex .tiny-text-entry-box {
+  width: 115px;
+  height: 58px;
+  margin-left: 20px;
+  border: 1px solid #79addc;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: GillSans;
+  outline: none;
+  background-image: url(../images/down-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 80px;
+  background-size: 20px;
+}
+.booking-form .form-flex .form-text-2 {
+  font-size: 18px;
+  font-family: GillSans;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-left: 87px;
+  padding-right: 30px;
+}
+.booking-form .form-flex-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.booking-form .form-flex-2 .large-text-entry-box {
+  width: 735px;
+  height: 58px;
+  margin-left: 20px;
+  border: 1px solid #79addc;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: GillSans;
+  outline: none;
+  background-image: url(../images/calendar.svg);
+  background-repeat: no-repeat;
+  background-position: 700px;
+  background-size: 19px;
+}
+.booking-form .form-flex-2 .form-text {
+  font-size: 18px;
+  font-family: GillSans;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+.booking-form .large-text-area {
+  width: 834px;
+  height: 192px;
+  border: 1px solid #79addc;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 18px;
+  font-family: GillSans;
+  outline: none;
+}
+.booking-form .submit {
+  background-color: #79addc;
+  border: none;
+  outline: 0;
+  color: white;
+  font-family: GillSans;
+  font-size: 15px;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 813px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+}

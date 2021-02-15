@@ -1,0 +1,88 @@
+.hero {
+  width: 1280px;
+  height: 500px;
+  background-image: linear-gradient(to right, $overlay-black, $overlay-black),
+    url(../images/hero.jpg);
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+
+  nav {
+    width: 980px;
+    height: 60px;
+    margin: 0 auto;
+    // background-color: purple;
+    border-bottom: $white solid 2px;
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+      height: 42px;
+      width: 92px;
+      background-image: url(../images/logo/logo-white.png);
+    }
+
+    .links {
+      height: 42px;
+      width: 542px;
+      align-self: center;
+      display: flex;
+      font-family: GillSans;
+
+      a {
+        text-decoration: none;
+        color: $white;
+        margin: auto;
+        border-right: $site-blue solid 1.5px;
+        padding-right: 20px;
+        // put a  | between the anchor tags and style that
+      }
+
+      .contact-link {
+        border-right: none;
+        margin-right: -20px;
+      }
+    }
+
+    // put nav in its own sass file maybe
+  }
+
+  p {
+    // font-family: ProximaNova;
+    color: $white;
+    margin: 0 auto;
+  }
+
+  .title-font {
+    width: 180px;
+    font-family: ProximaNova;
+    font-size: 60px;
+    // color: $white;
+    // margin: 0 auto;
+    padding-top: 60px;
+  }
+
+  .hero-paragraph {
+    width: 714px;
+    font-family: GillSans;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 35px;
+    font-style: italic;
+  }
+
+  .read-more {
+    width: 122px;
+    height: 40px;
+    font-family: GillSans;
+    font-size: 15px;
+    margin-top: 55px;
+    background-color: $site-blue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
